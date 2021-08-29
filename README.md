@@ -54,8 +54,8 @@
   - [ ] Introduction
   - [ ] Complete Bitwise Operators
   - [ ] Prime numbers
-  - [ ] HCF / LCM
-  - [ ] Sieve of Eratosthenes
+  - [x] HCF / LCM
+  - [x] Sieve of Eratosthenes
   - [ ] Newton's Square Root Method
   - [ ] Number Theory
   - [ ] Euclidean algorithm
@@ -70,7 +70,7 @@
     - [ ] Lucas Theorem
     - [ ] Chinese Remainder Theorem
 - [ ] Recursion
-  - [ ] Introduction
+  - [x] Introduction
   - [ ] Why recursion?
   - [ ] Flow of recursive programs stacks
   - [ ] Convert recursion to iteration

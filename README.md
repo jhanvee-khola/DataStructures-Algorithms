@@ -31,19 +31,19 @@
   - [ ] Sorting
     - [ ] Insertion Sort
     - [ ] Selection Sort
-    - [ ] Bubble Sort
+    - [x] Bubble Sort
     - [ ] Count Sort
     - [ ] Radix Sort
     - [ ] Cyclic Sort
   - [ ] Searching
-    - [ ] Linear Search
+    - [x] Linear Search
     - [ ] Binary Search
     - [ ] Modified Binary Search
     - [ ] Binary Search on 2D Arrays
   - [ ] Sliding window
   - [ ] Two Pointer
   - [ ] Subarray Questions
-- [ ] Pattern questions
+- [x] Pattern questions
 - [ ] Strings
   - [ ] Introduction
   - [ ] How Strings work

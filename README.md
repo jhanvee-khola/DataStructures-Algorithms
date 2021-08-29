@@ -71,7 +71,7 @@
 - [ ] Chinese Remainder Theorem
 - [ ] Recursion
  - [ ] Introduction
-- [ ] Why recursion?
+ - [ ] Why recursion?
  Flow of recursive programs stacks
  Convert recursion to iteration
  Tree building of function calls

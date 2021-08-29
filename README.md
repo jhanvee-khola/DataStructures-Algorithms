@@ -2,76 +2,76 @@
 - [ ] Complete Git & GitHub Course
 - [ ] Introduction to Programming
 - [ ] Types of languages
-- [] Memory man agement
-- [] Flow of the program
-- [] Flowcharts
-- [] Pseudocode
-- [] Introduction to Java
-- [] Introduction
-- [] How it works
-- [] Setup Installation
-- [] Input and Output in Java
-- [] Conditionals & Loops in Java
-- [] if else
-- [] loops
-- [] Switch statements
-- [] Data types
-- [] Coding best practices
-- [] Functions
-- [] Introduction
-- [] Scoping in Java
-- [] Shadowing
-- [] Variable Length Arguments
-- [] Overloading
-- [] Arrays
-- [] Introduction
-- [] Memory management
-- [] Input and Output
-- [] ArrayList Introduction
-- [] Sorting
-- [] Insertion Sort
-- [] Selection Sort
-- [] Bubble Sort
-- [] Count Sort
-- [] Radix Sort
-- [] Cyclic Sort
-- [] Searching
-- [] Linear Search
-- [] Binary Search
-- [] Modified Binary Search
-- [] Binary Search on 2D Arrays
-- [] Sliding window
- Two Pointer
- Subarray Questions
- Pattern questions
- Strings
- Introduction
- How Strings work
- Comparison of methods
- Operations in Strings
- StringBuilder in java
- Maths for DSA
- Introduction
- Complete Bitwise Operators
- Prime numbers
- HCF / LCM
- Sieve of Eratosthenes
- Newton's Square Root Method
- Number Theory
- Euclidean algorithm
- Advanced Concepts for CP (later in the course)
- Bitwise + DP
- Extended Euclidean algorithm
- Modulo Properties
- Modulo Multiplicative Inverse
- Linear Diophantine Equations
- Fermat’s Theorem
- Wilson's Theorem
- Lucas Theorem
- Chinese Remainder Theorem
- Recursion
- Introduction
- Why recursion?
+- [ ] Memory man agement
+- [ ] Flow of the program
+- [ ] Flowcharts
+- [ ] Pseudocode
+- [ ] Introduction to Java
+- [ ] Introduction
+- [ ] How it works
+- [ ] Setup Installation
+- [ ] Input and Output in Java
+- [ ] Conditionals & Loops in Java
+- [ ] if else
+- [ ] loops
+- [ ] Switch statements
+- [ ] Data types
+- [ ] Coding best practices
+- [ ] Functions
+- [ ] Introduction
+- [ ] Scoping in Java
+- [ ] Shadowing
+- [ ] Variable Length Arguments
+- [ ] Overloading
+- [ ] Arrays
+- [ ] Introduction
+- [ ] Memory management
+- [ ] Input and Output
+- [ ] ArrayList Introduction
+- [ ] Sorting
+- [ ] Insertion Sort
+- [ ] Selection Sort
+- [ ] Bubble Sort
+- [ ] Count Sort
+- [ ] Radix Sort
+- [ ] Cyclic Sort
+- [ ] Searching
+- [ ] Linear Search
+- [ ] Binary Search
+- [ ] Modified Binary Search
+- [ ] Binary Search on 2D Arrays
+- [ ] Sliding window
+- [ ] Two Pointer
+- [ ] Subarray Questions
+- [ ] Pattern questions
+- [ ] Strings
+- [ ] Introduction
+- [ ] How Strings work
+- [ ] Comparison of methods
+- [ ] Operations in Strings
+- [ ] StringBuilder in java
+- [ ] Maths for DSA
+- [ ] Introduction
+- [ ] Complete Bitwise Operators
+- [ ] Prime numbers
+- [ ] HCF / LCM
+- [ ] Sieve of Eratosthenes
+- [ ] Newton's Square Root Method
+- [ ] Number Theory
+- [ ] Euclidean algorithm
+- [ ] Advanced Concepts for CP (later in the course)
+- [ ] Bitwise + DP
+- [ ] Extended Euclidean algorithm
+- [ ] Modulo Properties
+- [ ] Modulo Multiplicative Inverse
+- [ ] Linear Diophantine Equations
+- [ ] Fermat’s Theorem
+- [ ] Wilson's Theorem
+- [ ] Lucas Theorem
+- [ ] Chinese Remainder Theorem
+- [ ] Recursion
+-     [ ] Introduction
+- [ ] Why recursion?
  Flow of recursive programs stacks
  Convert recursion to iteration
  Tree building of function calls

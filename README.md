@@ -1,7 +1,7 @@
 # DSA Progress Tracker
-- [] Complete Git & GitHub Course
-- [] Introduction to Programming
-- [] Types of languages
+- [ ] Complete Git & GitHub Course
+- [ ] Introduction to Programming
+- [ ] Types of languages
 - [] Memory man agement
 - [] Flow of the program
 - [] Flowcharts

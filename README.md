@@ -12,9 +12,9 @@
   - [ ] Setup Installation
   - [ ] Input and Output in Java
   - [ ] Conditionals & Loops in Java
-  - [ ] if else
-  - [ ] loops
-  - [ ] Switch statements
+    - [ ] if else
+    - [ ] loops
+    - [ ] Switch statements
   - [ ] Data types
   - [ ] Coding best practices
 - [ ] Functions

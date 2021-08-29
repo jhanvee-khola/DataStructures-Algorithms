@@ -70,7 +70,7 @@
 - [ ] Lucas Theorem
 - [ ] Chinese Remainder Theorem
 - [ ] Recursion
--     [ ] Introduction
+ - [ ] Introduction
 - [ ] Why recursion?
  Flow of recursive programs stacks
  Convert recursion to iteration

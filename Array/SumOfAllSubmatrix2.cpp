@@ -31,7 +31,7 @@ int main() {
 	        b[i][j]+=b[i-1][j];
 	    }
 	}
-	//can also be done in O(1) space by modifying the matrix 'a' in-place.
+	//can also be done in O(1) space by modifying the matrix 'a' in-place instead of using matrix 'b'
 	int ans=0;
 	for(int i=0;i<n;i++){
 	    for(int j=0;j<m;j++){

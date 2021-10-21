@@ -28,7 +28,9 @@ int main() {
 	//row-wise prefix sum
 	for(int j=0;j<m;j++){
 	    for(int i=0;i<n;i++){
-	        b[i][j]+=b[i-1][j];
+	        if(i!=0){
+		    b[i][j]+=b[i-1][j];
+		}
 	    }
 	}
 	//can also be done in O(1) space by modifying the matrix 'a' in-place instead of using matrix 'b'

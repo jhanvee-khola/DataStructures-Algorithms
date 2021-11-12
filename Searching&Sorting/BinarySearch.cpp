@@ -14,7 +14,7 @@ int binarySearch(int a[],int s,int e,int k){
       return binarySearch(a,s,mid-1,k);
     }
   }
-  return -1;
+  return -1;//if not found
 }
 
 int main(){
@@ -26,6 +26,6 @@ int main(){
   }
   int k;
   cin>>k;
-  
+  cout<<binarySearch(a,0,n;k);
   return 0;
 }

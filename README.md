@@ -1,17 +1,17 @@
 # DSA Progress Tracker
-- [ ] Complete Git & GitHub Course
+- [ ] Complete Git & GitHub
 - [x] Introduction to Programming
   - [x] Types of languages
   - [ ] Memory management
 - [x] Flow of the program
   - [x] Flowcharts
   - [x] Pseudocode
-- [ ] Introduction to Java
+- [ ] Introduction
   - [ ] Introduction
   - [ ] How it works
   - [ ] Setup Installation
-  - [ ] Input and Output in Java
-  - [ ] Conditionals & Loops in Java
+  - [ ] Input and Output
+  - [ ] Conditionals & Loops
     - [x] if else
     - [x] loops
     - [x] Switch statements
@@ -19,7 +19,7 @@
   - [ ] Coding best practices
 - [ ] Functions
   - [ ] Introduction
-  - [ ] Scoping in Java
+  - [ ] Scoping
   - [ ] Shadowing
   - [ ] Variable Length Arguments
   - [ ] Overloading
@@ -27,7 +27,7 @@
   - [x] Introduction
   - [ ] Memory management
   - [x] Input and Output
-  - [ ] ArrayList Introduction
+  - [ ] Vectors
   - [ ] Sorting
     - [ ] Insertion Sort
     - [ ] Selection Sort
@@ -37,7 +37,7 @@
     - [ ] Cyclic Sort
   - [ ] Searching
     - [x] Linear Search
-    - [ ] Binary Search
+    - [x] Binary Search
     - [ ] Modified Binary Search
     - [ ] Binary Search on 2D Arrays
   - [ ] Sliding window
@@ -49,7 +49,7 @@
   - [ ] How Strings work
   - [ ] Comparison of methods
   - [ ] Operations in Strings
-  - [ ] StringBuilder in java
+  - [ ] String Methods
 - [ ] Maths for DSA
   - [ ] Introduction
   - [ ] Complete Bitwise Operators
@@ -59,7 +59,7 @@
   - [ ] Newton's Square Root Method
   - [ ] Number Theory
   - [ ] Euclidean algorithm
-  - [ ] Advanced Concepts for CP (later in the course)
+  - [ ] Advanced Concepts for CP
     - [ ] Bitwise + DP
     - [ ] Extended Euclidean algorithm
     - [ ] Modulo Properties

@@ -1,5 +1,4 @@
 # DSA Progress Tracker
-- [ ] Complete Git & GitHub
 - [x] Introduction to Programming
   - [x] Types of languages
   - [ ] Memory management
@@ -7,9 +6,7 @@
   - [x] Flowcharts
   - [x] Pseudocode
 - [ ] Introduction
-  - [ ] Introduction
   - [ ] How it works
-  - [ ] Setup Installation
   - [ ] Input and Output
   - [ ] Conditionals & Loops
     - [x] if else

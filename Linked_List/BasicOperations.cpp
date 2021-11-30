@@ -74,12 +74,35 @@ void print(node*head){
 }
 
 //Deletion
-void deleteHead(){
-  
+void deleteHead(node*&head){
+  if(head==NULL){
+    return;
+  }
+  node* temp=head->next;
+  delete head;
+  head=temp;
 }
-void deleteTail(){
-
+void deleteTail(node*head){
+  node* temp;
+ 
 }
-void deleteMiddle(){
-
+void deleteMiddle(node*head,int p){
+  if(head==NULL){
+    return;
+  }
+  if(p=0){
+    deleteHead(head);
+  }
+  else if(p>length(head)){
+    deleteTail(head);
+  }
+  else{
+    int c=0;
+    node*prev=
+    while(c<=p){
+      if(c==p-1){
+        node*prev=
+      }
+    }
+  }
 }

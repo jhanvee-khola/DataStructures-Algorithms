@@ -83,8 +83,19 @@ void deleteHead(node*&head){
   head=temp;
 }
 void deleteTail(node*head){
-  node* temp;
- 
+  if(head==NULL){
+    return;
+  }
+  if(head->next==NULL){
+    delete head;
+    return;
+  }
+  node* temp=head;
+  while((temp->next)->next!=NULL){
+    temp=temp->next;
+  }
+  delete (temp->next);
+  temp->next=NULL;
 }
 void deleteMiddle(node*head,int p){
   if(head==NULL){
@@ -98,11 +109,28 @@ void deleteMiddle(node*head,int p){
   }
   else{
     int c=0;
-    node*prev=
-    while(c<=p){
-      if(c==p-1){
-        node*prev=
-      }
+    node* temp=head;
+    while(c<p-1){
+      temp=temp->next;
+      c++;
     }
+    temp->next=temp->next->next;
+    delete (temp->next);
+  }
+  return;
+}
+
+//Input
+node* input(){
+  node* head=NULL;
+  int d;
+  cin>>d;
+  while(d!=-1){
+    
   }
 }
+
+//Updation
+
+
+//Searching

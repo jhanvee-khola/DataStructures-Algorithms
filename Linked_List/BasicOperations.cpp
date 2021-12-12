@@ -126,11 +126,33 @@ node* input(){
   int d;
   cin>>d;
   while(d!=-1){
-    
+    insertAtTail(&head,d);
+    cin>>d;
   }
+  return head;
 }
 
 //Updation
-
+void update(node*head,int p,int d){
+  int c=0;
+  node* temp=head;
+  while(c<p){
+    temp=temp->next;
+    c++;
+  }
+  temp->data=d;
+}
 
 //Searching
+int search(node*head,int k){
+  node* temp=head;
+  int c=0;
+  while(temp!=NULL){
+    if(temp->data==k){
+      return c;
+    }
+    c++;
+    temp=temp->next;
+  }
+  return -1;
+}

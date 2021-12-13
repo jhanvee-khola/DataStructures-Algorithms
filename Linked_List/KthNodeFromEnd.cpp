@@ -30,7 +30,7 @@ node* kthFromEnd(node*head,int k){
   }
   int l=length(head),c=0;
   node*temp=head;
-  while(){
+  while(c<n-k){
     temp=temp->next;
     c++;
   }
@@ -43,7 +43,14 @@ node* kthFromEnd(node*head,int k){
     return head;
   }
   node* f=head,s=head;
-  while(){}
-  while(){}
+  int c=0;
+  while(c<k){
+    f=f->next;
+    c++;
+  }
+  while(f->next!=NULL){
+    f=f->next;
+    s=s->next;
+  }
   return s;
 }

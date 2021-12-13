@@ -43,6 +43,9 @@ node* midPoint(node*head){
 
 //Runner Technique(2-pointer)
 node* midPoint(node*head){
+  if(head->next==NULL || head==NULL){
+    return head;
+  }
   node* f=head->next,s=head;
   while(f!=NULL && f->next!=NULL){
     f=f->next->next;

@@ -26,3 +26,26 @@ void reverse(node*&head){
 }
 
 //Recursive Approach
+node* recReverse(node*head){
+  if(head==NULL || head->next==NULL){
+    return head;
+  }
+  node* shead=recReverse(head->next);
+  node* temp=shead;
+  while(temp->next!=NULL){
+    temp=temp->next;
+  }
+  temp->next=head;
+  head->next=NULL;
+  return shead;
+}
+
+//Optimised Recursive Approach
+node* reverse(node*shead,node*&head){
+  if(head==NULL || head->next==NULL){
+    return head;
+  }
+  head->next->next=head;
+  head->next=NULL;
+  return 
+}

@@ -47,7 +47,7 @@ node* merge(node* h1,node* h2){
 }
 
 node* mergeSort(node* head){
-  if(head==NULL){
+  if(head==NULL || head->next=NULL){
     return head;
   }
   node* mid=midPoint(head);

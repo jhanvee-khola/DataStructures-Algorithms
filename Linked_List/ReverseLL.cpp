@@ -15,7 +15,7 @@ class node{
 
 //Iterative Approach
 void reverse(node*&head){
-  node* curr=head,prev=NULL,temp;;
+  node* curr=head,prev=NULL,temp;
   while(curr!=NULL){
     temp=curr->next;
     curr->next=prev;

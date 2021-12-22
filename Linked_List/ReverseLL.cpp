@@ -41,11 +41,12 @@ node* recReverse(node*head){
 }
 
 //Optimised Recursive Approach
-node* reverse(node*shead,node*&head){
+node* reverse(node*&head){
   if(head==NULL || head->next==NULL){
     return head;
   }
+  node* shead=reverse(head->next);
   head->next->next=head;
   head->next=NULL;
-  return 
+  return shead;
 }

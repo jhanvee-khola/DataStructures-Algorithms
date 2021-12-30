@@ -1,4 +1,4 @@
-//Method-1
+//Method-1 -> O(n^2) time
 int maxWater(int arr[],int n){
 // To store the maximum water that can be stored 
 int res=0; 

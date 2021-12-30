@@ -9,7 +9,7 @@ int main(){
     cin>>a[i];
   }
   
-  //Brute Force approach
+  //Brute Force approach - O(n^3) time
   int ans=INT_MIN,l=0,r=0;
   for(int i=0;i<n;i++){
     for(int j=i;j<n;j++){

@@ -77,3 +77,21 @@ void printLevel(node *root){
     cout<<endl;
   }
 }
+
+void bfs(node *root){
+  //Breadth-First Traversal
+  queue<node*> q;
+  q.push(root);
+  while(!q.empty()){
+    node *f=q.front();
+    cout<<f.data<<" ";
+    q.pop();
+    if(f->left){
+      q.push(f->left);
+    }
+    if(f->right){
+      q.push(f->right);
+    }
+  }
+  return;
+}

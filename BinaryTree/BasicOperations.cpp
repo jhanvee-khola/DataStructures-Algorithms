@@ -123,3 +123,33 @@ void bfs(node *root){
   }
   return;
 }
+
+int diameter(node *root){
+  //O(n^2) time
+  if(root==NULL){
+    return 0;
+  }
+  int h1=height(root->left);
+  int h2=height(root->right);
+  int op1=h1+h2;
+  int op2=diameter(root->left);
+  int op3=diameter(root->right);
+  
+  return max(op1,max(op2,op3));
+}
+pair<int,int> diameter(node *root){
+  //O(n) time
+  pair<int,int> p;
+  //first->height & second->diameter
+  if(root==NULL){
+    p.first=p.second=0;
+    return p;
+  }
+  pair<int,int> left=diameter(root->left);
+  pair<int,int> right=diameter(root->right);
+  
+  p.first=max(left.first,right.first)+1;
+  p.second=max(left.first+right.first,max(left.second,right.second));
+  
+  return p;
+}

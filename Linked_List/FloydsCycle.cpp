@@ -3,11 +3,11 @@
 bool detectCycle(node* head){
   node* s=head,f=head;
   while(f!=NULL && f->next!=NULL){
+    s=s->next;
+    f=f->next->next;
     if(f==s){
       return true;
     }
-    s=s->next;
-    f=f->next->next;
   }
   return false;
 }

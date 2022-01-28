@@ -53,7 +53,15 @@ void printPost(node *root){
   cout<<root->data<<" ";
 }
 
+int size(node* root){
+  //no. of edges
+  if(root==NULL){
+    return 0;
+  }
+  
+}
 int height(node* root){
+  //no. of nodes
   if(root==NULL){
     return 0;
   }

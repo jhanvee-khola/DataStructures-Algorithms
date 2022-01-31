@@ -52,17 +52,43 @@ bool search(node* root,int k){
   }
 }
 
-void deletion(node* root,node* k){
-  if(root==NULL || k==NULL){
-    return;
+node* deletion(node* root,int k){
+  if(root==NULL){
+    return NULL;
   }
-  if(root->left && root->right){
-  
+  else if(k<root->data){
+    root->left=deletion(root->left,k);
+    return root;
   }
-  else if(root->left || root->right){
-  
+  else if(k>root->data){
+    root->right=deletion(root->right,k);
+    return root;
   }
   else{
-    
+    if(root->left==NULL && root->right==NULL){
+      delete root;
+      return NULL;
+    }
+    else if(root->left!=NULL && root->right==NULL){
+      node* temp=root->left;
+      delete root;
+      return temp;
+    }
+    else if(root->left==NULL && root->right!=NULL){
+      node* temp=root->right;
+      delete root;
+      return temp;
+    }
+    else{
+      //finding maximum in left subtree
+      node* temp=root->left;
+      while(temp->right!=NULL){
+        temp=temp->right;
+      }
+      root->data=temp->data;
+      root->left=deletion(root->left,temp->data);
+      return root;
+      //minimum in right subtree can also be used
+    }
   }
 }

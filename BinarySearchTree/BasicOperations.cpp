@@ -92,3 +92,13 @@ node* deletion(node* root,int k){
     }
   }
 }
+
+bool check(node* root,int minV=INT_MIN,int maxV=INT_MAX){
+  if(root==NULL){
+    return true;
+  }
+  if(root->data>=minV && root->data<=maxV && check(root->left,minV,root->data) && check(root->right,root->data,maxV)){
+    return true;
+  }
+  return true;
+}

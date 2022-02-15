@@ -50,17 +50,25 @@ class Heap{
     }
 };
 
+//Create a heap from an array(in place)
+//Method 1
+void createHeap(int a[],int n){
+  //creating a max heap
+  for(int i=0;i<n;i++){
+    int l=2*i,r=l+1;
+    if(a[l]>a[i]){
+      
+    }
+    if(a[r]>a[i]){
+    
+    }
+  }
+}
 
-
-
-
-
-
-
-
-
-
-
+//Method 2
+void createHeap(int a[],int n){
+  
+}
 
 
 

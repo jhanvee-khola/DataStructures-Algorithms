@@ -51,27 +51,23 @@ class Heap{
 };
 
 //Create a heap from an array(in place)
-//Method 1
-void createHeap(int a[],int n){
+//Method 1 - O(nlogn) time
+void createHeap(vector<int> a){
   //creating a max heap
-  for(int i=0;i<n;i++){
-    int l=2*i,r=l+1;
-    if(a[l]>a[i]){
-      
-    }
-    if(a[r]>a[i]){
-    
+  for(int i=2;i<a.size();i++){
+    int idx=i,parent=i/2;
+    while(idx>1 && a[idx]>a[parent]){
+      swap(a[idx],a[parent]);
+      idx=parent;
+      parent/=2;
     }
   }
 }
 
-//Method 2
-void createHeap(int a[],int n){
-  
+//Method 2 - O(n) time
+void createHeap(vector<int> a){
+  for(int i=a.size()-1/2;i>=1;i--){
+    heapify(a,i);
+    //similar heapify function with vector passed as arguement
+  }
 }
-
-
-
-
-
-

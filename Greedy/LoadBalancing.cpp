@@ -22,5 +22,18 @@ int loadBalance(int a[],int n){
 
 //Method 2
 int loadBalance(int a[],int n){
-  
+  int load=0;
+  for(int i=0;i<n;i++){
+    load+=a[i];
+  }
+  if(load%n!=0){
+    return -1;
+  }
+  load/=n;
+  int diff=0,ans=0;
+  for(int i=0;i<n;i++){
+    diff+=(a[i]-load);
+    ans=max(ans,abs(diff));
+  }
+  return ans;
 }

@@ -17,8 +17,8 @@ bool subsetSum(int a[],int n,int k){
 }
 
 //top-down dp
-//initialize all values in dp[][] with -1;
-int subsetSum1(int a[],int n,int k,int dp[n+1][k+1]){
+//initialize all values in global dp[][] matrix with -1;
+int subsetSum1(int a[],int n,int k){
   if(k==0){
     return 1;
   } 
@@ -29,10 +29,10 @@ int subsetSum1(int a[],int n,int k,int dp[n+1][k+1]){
     return dp[n][k];
   }
   if(a[n-1]>k){
-    return dp[n][k]=subsetSum(a,n-1,k);
+    return dp[n][k]=subsetSum1(a,n-1,k);
   }
   else{
-    return dp[n][k]=subsetSum(a,n-1,k) || subsetSum(a,n-1,k-a[n-1]);
+    return dp[n][k]=subsetSum1(a,n-1,k) || subsetSum1(a,n-1,k-a[n-1]);
   }
 }
 

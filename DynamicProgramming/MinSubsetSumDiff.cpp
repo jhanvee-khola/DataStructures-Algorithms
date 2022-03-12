@@ -39,7 +39,7 @@ int minimumDifference(vector<int>& a) {
         }
     }
     int ans=INT_MAX;
-    for(int i=0;i<=sum/2;i--){
+    for(int i=sum/2;i>=0;i--){
         if(dp[n][i]){
             ans=total-2*i;
             break;

@@ -39,7 +39,7 @@ int mnas(int a[],int n){
 //space-optimization
 int mnas(int a[],int n){
   int a=0,b=a[0];
-  for(int i=2;i<=n;i++){
+  for(int i=1;i<=n;i++){
     int c=max(b,a[i]+a);
     a=b;
     b=c;

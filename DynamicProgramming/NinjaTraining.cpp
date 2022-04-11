@@ -48,11 +48,28 @@ int maxPoints(int day,int last,int a[][3],int dp[][4]){
 //bottom-up dp - 35:32
 int maxPoints(int n,int a[][3]){
   int dp[n][4];
-  for(int i=0;i<n;i++){
-    for(int j=0;j<=2;j++)
-    if(i==0){
+  dp[0][0]=max(a[1],a[2]);
+  dp[0][1]=max(a[0],a[2]);
+  dp[0][2]=max(a[1],a[3]);
+  dp[0][3]=max(a[0],max(a[1],a[2]));
+  for(int i=1;i<n;i++){
+    for(int j=0;j<4;j++)
+    int maxi=0;
+    for(int k=0;k<3;k++){
+      if(k!=j){
+        int pt=a[i][j]+dp[][];
+        
+      }
       
     }
   }
   
+}
+
+//space-optimization
+int maxPoints(int n,int a[][3]){
+  int dp[4];
+  for(int i=1;i<n;i++){
+    
+  }
 }

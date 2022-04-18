@@ -45,7 +45,7 @@ int maxPoints(int day,int last,int a[][3],int dp[][4]){
   return dp[day][last]=maxi;
 }
 
-//bottom-up dp - 35:32
+//bottom-up dp
 int maxPoints(int n,int a[][3]){
   int dp[n][4];
   dp[0][0]=max(a[1],a[2]);

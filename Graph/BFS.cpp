@@ -1,6 +1,6 @@
 vector<int> bfsGraph(int n,vector<int> adj[]){
   vector<int> bfs;
-  vcetor<int> visit(n,0);
+  vcetor<int> visit(n+1,0);
   
   for(int i=1;i<=n;i++){
     if(!visit[i]){

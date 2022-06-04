@@ -1,5 +1,5 @@
 bool isSafe(vector<string> pos,int x,int y,int n){
-    //colum check
+    //column check
     for(int i=0;i<x;i++){
         if(pos[i][y]=='Q'){
             return false;
@@ -15,7 +15,7 @@ bool isSafe(vector<string> pos,int x,int y,int n){
         j--;
     }
     //north-east diagonal
-    int i=x-1,j=y+1;
+    i=x-1,j=y+1;
     while(i>=0 && j<n){
         if(pos[i][j]=='Q'){
             return false;

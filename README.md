@@ -1,18 +1,18 @@
-# DSA Progress Tracker
-- [x] Introduction to Programming
-  - [x] Types of languages
+# DSA Syllabus
+- [ ] Introduction to Programming
+  - [ ] Types of languages
   - [ ] Memory management
-- [x] Flow of the program
-  - [x] Flowcharts
-  - [x] Pseudocode
+- [ ] Flow of the program
+  - [ ] Flowcharts
+  - [ ] Pseudocode
 - [ ] Introduction
   - [ ] How it works
   - [ ] Input and Output
   - [ ] Conditionals & Loops
-    - [x] if else
-    - [x] loops
-    - [x] Switch statements
-  - [x] Data types
+    - [ ] if else
+    - [ ] loops
+    - [ ] Switch statements
+  - [ ] Data types
   - [ ] Coding best practices
 - [ ] Functions
   - [ ] Introduction
@@ -21,26 +21,26 @@
   - [ ] Variable Length Arguments
   - [ ] Overloading
 - [ ] Arrays
-  - [x] Introduction
+  - [ ] Introduction
   - [ ] Memory management
-  - [x] Input and Output
+  - [ ] Input and Output
   - [ ] Vectors
   - [ ] Sorting
     - [ ] Insertion Sort
     - [ ] Selection Sort
-    - [x] Bubble Sort
+    - [ ] Bubble Sort
     - [ ] Count Sort
     - [ ] Radix Sort
     - [ ] Cyclic Sort
   - [ ] Searching
-    - [x] Linear Search
-    - [x] Binary Search
+    - [ ] Linear Search
+    - [ ] Binary Search
     - [ ] Modified Binary Search
     - [ ] Binary Search on 2D Arrays
   - [ ] Sliding window
   - [ ] Two Pointer
   - [ ] Subarray Questions
-- [x] Pattern questions
+- [ ] Pattern questions
 - [ ] Strings
   - [ ] Introduction
   - [ ] How Strings work
@@ -51,8 +51,8 @@
   - [ ] Introduction
   - [ ] Complete Bitwise Operators
   - [ ] Prime numbers
-  - [x] HCF / LCM
-  - [x] Sieve of Eratosthenes
+  - [ ] HCF / LCM
+  - [ ] Sieve of Eratosthenes
   - [ ] Newton's Square Root Method
   - [ ] Number Theory
   - [ ] Euclidean algorithm
@@ -67,7 +67,7 @@
     - [ ] Lucas Theorem
     - [ ] Chinese Remainder Theorem
 - [ ] Recursion
-  - [x] Introduction
+  - [ ] Introduction
   - [ ] Why recursion?
   - [ ] Flow of recursive programs stacks
   - [ ] Convert recursion to iteration

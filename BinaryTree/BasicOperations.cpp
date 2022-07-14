@@ -32,6 +32,25 @@ void print(node* root){
   print(root->left);
   print(root->right);
 }
+void print2(node *root){
+  //Iterative Pre-order Traversal
+  if(root==NULL){
+    return;
+  }
+  stack<node*> s;
+  s.push(root);
+  while(!s.empty()){
+    node* n=s.top();
+    s.pop();
+    cout<<n->data<<" ";
+    if(n->right){
+      s.push(n->right);
+    }
+    if(n->left){
+      s.push(n->left);
+    }
+  }
+}
 
 void printIn(node *root){
   //In-Order Traversal
@@ -42,6 +61,29 @@ void printIn(node *root){
   cout<<root->data<<" ";
   printIn(root->right);
 }
+void printIn2(node *root){
+  //Iterative In-order traversal
+  if(root==NULL){
+    return;
+  }
+  stack<node *> s;
+  node *curr=root;
+  while(1){
+    if(curr){
+      s.push(curr);
+      curr=curr->left;
+    }
+    else{
+      if(s.empty()){
+        break;
+      }
+      curr=s.top();
+      cout<<curr->data<<" ";
+      s.pop();
+      curr=curr->right;
+    }
+  }
+}
 
 void printPost(node *root){
   //Post-Order Traversal
@@ -51,6 +93,70 @@ void printPost(node *root){
   printPost(root->left);
   printPost(root->right);
   cout<<root->data<<" ";
+}
+void printPost2(node *root){
+  //Iterative Post-order Traversal (Using 2 stacks)
+  if(root==NULL){
+    return;
+  }
+  stack<node*> s1;
+  stack<node*> s2;
+  s1.push(root);
+  while(!s1.empty()){
+    node *n=s1.top();
+    s1.pop();
+    s2.push(n);
+    if(n->left){
+      s1.push(n->left);
+    }
+    if(n->right){
+      s1.push(n->right);
+    }
+  }
+  while(!s2.empty()){
+    cout<<s2.top()->data<<" ";
+    s2.pop();
+  }
+}
+void printPost3(node *root){
+  //Iterative Post-order Traversal (Using 1 stack)
+  if(root==NULL){
+    return;
+  }
+  stack<node*> s;
+  node* curr=root;
+  while(curr || !s.empty()){
+    if(curr){
+      s.push(curr);
+      s=s->left;
+    }
+    else{
+      node *n=s.top()->right;
+      s.pop();
+      if(!n){
+        n=s.top();
+        s.pop();
+        cout<<n->data<<" ";
+        while(!s.empty() && n==s.top()->right){
+          n=s.top();
+          s.pop();
+          cout<<n->data<<" ";
+        }
+      }
+      else{
+        curr=n;
+      }
+    }
+  }
+}
+
+void printAll(node *root){
+  //All traversals in one go
+  vector<int> pre;
+  vector<int> in;
+  vector<int> post;
+  
+  
 }
 
 int size(node* root){

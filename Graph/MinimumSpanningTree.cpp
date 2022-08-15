@@ -72,7 +72,4 @@ void primMST2(vector<pair<int,int>> adj[],int n){
   }
 }
 
-//Kruskal's Algorithm
-void kruskalMST(vector<pair<int,int>> adj[],int n){
-  
-}
+//Another algorithm to find mst is Kruskal's algorithm that uses disjoint set. Included in Disjoint Set directory
